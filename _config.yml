@@ -71,8 +71,8 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-#sidebar: post
-sidebar: always
+sidebar: post
+#sidebar: always
 #sidebar: hide
 #sidebar: remove
 
@@ -166,7 +166,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: hingsir
 
 # Disqus
 #disqus_shortname:
@@ -175,7 +175,7 @@ mathjax:
 #jiathis:
 
 # Share
-#duoshuo_share: true
+duoshuo_share: true
 
 # Google Webmaster tools verification setting
 # See: https://www.google.com/webmasters/
