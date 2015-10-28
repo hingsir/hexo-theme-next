@@ -96,6 +96,22 @@
           {% endif %}
         </div>
 
+        {% if theme.musicplayer %}
+          <div id='mp3-player' class='motion-element'/>
+          <script type="text/javascript" src="{{ url_for(theme.vendors) }}/web-musicplayer/musicplayer.js"></script>
+          <script type="text/javascript">
+              new MusicPlayer({
+                  container : document.getElementById('mp3-player'),
+                  songList:[
+                      '{{ url_for(theme.vendors) }}/web-musicplayer/musics/lsjx.mp3',
+                      '{{ url_for(theme.vendors) }}/web-musicplayer/musics/abj.mp3',
+                      '{{ url_for(theme.vendors) }}/web-musicplayer/musics/10m.mp3',
+                  ],
+                  autoplay:false
+              })
+          </script>
+        {% endif %}
+
       </section>
 
       {% if display_toc %}

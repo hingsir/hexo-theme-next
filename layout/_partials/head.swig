@@ -93,3 +93,7 @@
     motion: {{ theme.use_motion }}
   };
 </script>
+
+{% if theme.musicplayer %}
+  <link href="{{ url_for(theme.vendors) }}/web-musicplayer/musicplayer.css" rel="stylesheet" type="text/css"/>
+{% endif %}
