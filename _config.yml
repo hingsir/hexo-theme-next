@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "hingsir, chexingyou, ReferenceError"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -71,7 +71,7 @@ menu_icons:
 #  - always  expand for all pages automatically
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
-sidebar: post
+sidebar: always
 #sidebar: always
 #sidebar: hide
 #sidebar: remove
