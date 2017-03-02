@@ -108,7 +108,7 @@
                       '{{ url_for(theme.vendors) }}/web-musicplayer/musics/10m.mp3',
                       '{{ url_for(theme.vendors) }}/web-musicplayer/musics/dbz.mp3'
                   ],
-                  autoplay:true
+                  autoplay:false
               })
           </script>
         {% endif %}
